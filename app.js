@@ -58,12 +58,16 @@ app.post("/product", upload.single("file-to-upload"), (req, res) => {
   const filepath = path.join(__dirname, "uploads", req.file.filename);
 
   uploadFile(req.file.filename, filepath);
-  res.redirect("*");
+  res.redirect("/product");
+});
+app.get("/product", (req, res) => {
+  res.sendFile(path.join(__dirname, "client/build"));
 });
 app.use(express.static(path.join(__dirname, "client/build")));
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build"));
 });
+
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, console.log(`Server started on port ${PORT}`));
