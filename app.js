@@ -60,8 +60,9 @@ app.post("/product", upload.single("file-to-upload"), (req, res) => {
   uploadFile(req.file.filename, filepath);
   res.redirect("/product");
 });
-app.get("/", (req, res) => {
-  res.send("hello");
+app.use(express.static(path.join(__dirname, "client/build")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client/build"));
 });
 const PORT = process.env.PORT || 8080;
 
