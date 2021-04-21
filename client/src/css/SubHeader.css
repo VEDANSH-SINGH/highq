@@ -1,0 +1,33 @@
+.subheader {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: #070707f5;
+  display: flex;
+  font-family: sans-serif;
+  top: 0;
+  font-size: 14px;
+  z-index: 1000;
+  justify-content: space-between;
+}
+
+.subheader-dropdown {
+  color: rgb(189, 184, 184);
+}
+.subheader-left {
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  flex: 0.47;
+}
+.subheader-right {
+  margin: 0 25px 0 50px;
+  display: flex;
+  flex: 0.3;
+  justify-content: space-around;
+}
+#dropdown-basic {
+  background-color: #070707f5;
+  border: none;
+  color: rgb(189, 184, 184);
+}

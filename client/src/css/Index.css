@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(224, 226, 215);
+  overflow-x: hidden;
+}
+/*body {
+
+  background-image: repeating-linear-gradient(
+      0deg,
+      hsla(116, 39%, 82%, 0.05) 0px,
+      hsla(116, 39%, 82%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(116, 39%, 82%, 0.05) 11px,
+      hsla(116, 39%, 82%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(116, 39%, 82%, 0.05) 0px,
+      hsla(116, 39%, 82%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(116, 39%, 82%, 0.05) 11px,
+      hsla(116, 39%, 82%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(116, 39%, 82%, 0.05) 0px,
+      hsla(116, 39%, 82%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(116, 39%, 82%, 0.05) 11px,
+      hsla(116, 39%, 82%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(116, 39%, 82%, 0.05) 0px,
+      hsla(116, 39%, 82%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(116, 39%, 82%, 0.05) 11px,
+      hsla(116, 39%, 82%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    linear-gradient(90deg, rgb(98, 117, 153), rgb(7, 3, 141));
+}
+*/

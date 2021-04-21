@@ -1,0 +1,11 @@
+.details__selector {
+  width: 100%;
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h4 {
+  margin: 0;
+}
