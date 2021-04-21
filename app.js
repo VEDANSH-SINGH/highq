@@ -60,7 +60,7 @@ app.post("/product", upload.single("file-to-upload"), (req, res) => {
   uploadFile(req.file.filename, filepath);
   res.redirect("/product");
 });
-app.get("/", (res, req) => {
+app.get("/", (req, res) => {
   res.send("hello");
 });
 const PORT = process.env.PORT || 8080;
