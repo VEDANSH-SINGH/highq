@@ -45,7 +45,7 @@ async function uploadFile(name, filepath) {
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "./uploads/");
-  }, 
+  },
   filename: (req, file, cb) => {
     cb(null, `${file.originalname}`);
   },
@@ -58,7 +58,7 @@ app.post("/product", upload.single("file-to-upload"), (req, res) => {
   const filepath = path.join(__dirname, "uploads", req.file.filename);
 
   uploadFile(req.file.filename, filepath);
-  res.redirect("/product");
+  res.redirect("*");
 });
 app.use(express.static(path.join(__dirname, "client/build")));
 app.get("*", (req, res) => {
