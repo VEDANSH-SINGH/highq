@@ -1,0 +1,22 @@
+{
+  "name": "highq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "heroku-postbuild":"cd highq && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "googleapis": "^71.0.0",
+    "mime-types": "^2.1.30",
+    "multer": "^1.4.2",
+    "react-bootstrap": "^1.5.2"
+  }
+}
