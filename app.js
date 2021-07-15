@@ -7,11 +7,11 @@ var mime = require("mime-types");
 const multer = require("multer");
 const bodyParser = require("body-parser");
 const CLIENT_ID =
-  "90305085011-v6priekdbe3ph861rla91rs1fqdcg9br.apps.googleusercontent.com";
-const CLIENT_SECRET = "AkvaWJNt-oRS9N8ome3zGPTI";
+  "";
+const CLIENT_SECRET = "";
 const REDIRECT_URI = "https://developers.google.com/oauthplayground";
 const REFRESH_TOKEN =
-  "1//04wwVnF3GO6LtCgYIARAAGAQSNwF-L9IrWgY8r45YwpUKy-hrGhDa6MWHtaRjeOIGSl8b8mqS-JQRnvXsmJ9UfiUFHFdFsuyHjlo";
+  "";
 const oauth2Client = new google.auth.OAuth2(
   CLIENT_ID,
   CLIENT_SECRET,
